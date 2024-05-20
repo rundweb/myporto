@@ -6,9 +6,7 @@ const AboutPages = () => {
       <div className="about-content">
         <div className="about-title">
           <p>About</p>
-          <h1>
-            Pengembang web berkualitas tinggi
-          </h1>
+          <h1>Menerapkan praktik terbaik dalam pengembangan web.</h1>
           {/* <h3>
             Saya adalah web developer yang berdedikasi untuk mengubah ide-ide
             menjadi pengalaman online yang menakjubkan.
@@ -21,10 +19,12 @@ const AboutPages = () => {
               Ayo jadikan <strong>website</strong> Anda yang terbaik!
             </h1>
             <p>
-              Apakah Anda memiliki <strong>ide</strong> yang ingin diwujudkan? Saya siap membantu
-              Anda menggapai mimpi digital Anda. Mari kita berkolaborasi untuk
-              menciptakan solusi yang tidak hanya <strong>memukau</strong>, tetapi juga <strong>efektif</strong>.
-              Mari kita mulai membangun masa depan <strong>digital</strong> yang cerah bersama!
+              Apakah Anda memiliki <strong>ide</strong> yang ingin diwujudkan?
+              Saya siap membantu Anda menggapai mimpi digital Anda. Mari kita
+              berkolaborasi untuk menciptakan solusi yang tidak hanya{" "}
+              <strong>memukau</strong>, tetapi juga <strong>efektif</strong>.
+              Mari kita mulai membangun masa depan <strong>digital</strong> yang
+              cerah bersama!
             </p>
             <a href="">Explore Portfolio</a>
           </div>

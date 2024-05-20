@@ -11,18 +11,21 @@ export const menu = [
     patch: "about",
     delay: 0,
   },
+
   {
     id: 3,
-    name: "Portfolio",
-    patch: "portfolio",
-    delay: 0,
-  },
-  {
-    id: 4,
     name: "Service",
     patch: "service",
     delay: 0,
   },
+
+  {
+    id: 4,
+    name: "Portfolio",
+    patch: "portfolio",
+    delay: 0,
+  },
+
   {
     id: 5,
     name: "Testimonial",

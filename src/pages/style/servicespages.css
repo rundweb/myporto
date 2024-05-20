@@ -17,80 +17,75 @@
   width: 100%;
 }
 
-.service-title{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+.service-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
-.service-title p{
-    color: var(--color-blue1);
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
+.service-title p {
+  color: var(--color-blue1);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
-.service-title h1{
-    color: var(--color-black1);
-    font-size: 34px;
-    font-weight: 800;
-    text-transform: capitalize;
-    letter-spacing: .3px;
-}
-
-.service-title h3{
-    color: var(--color-black3);
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
+.service-title h1 {
+  color: var(--color-black1);
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
 }
 
-.service-list{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: #fff;
-    width: 100%;
-    border-radius: 20px;
-    flex-wrap: wrap;
-    padding: 50px 10px;
-    gap: 10px;
+.service-title h3 {
+  color: var(--color-black3);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-
-.service-link{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 400px;
-    cursor: pointer;
-    padding: 25px;
-    border-radius: 20px;
-    transition: all ease .5s;
+.service-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  padding: 50px 10px;
+  gap: 10px;
 }
 
-.service-link:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transform: scale(1.01);
+.service-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 20px;
+  transition: all ease 0.5s;
 }
 
-
-.service-link h1{
-    color: var(--color-black1);
-    font-size: 18px;
-    letter-spacing: .2px;
-    margin-bottom: -10px;
+.service-link:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.01);
 }
 
-.service-link p{
-    color: var(--color-black3);
-    font-size: 14px;
+.service-link h1 {
+  color: var(--color-black1);
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  margin-bottom: -10px;
 }
 
-.service-img img{
-    max-width: 100px;
+.service-link p {
+  color: var(--color-black3);
+  font-size: 14px;
 }
 
-
-
+.service-img img {
+  max-width: 100px;
+}
