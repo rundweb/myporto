@@ -54,7 +54,8 @@
     width: 100%;
     border-radius: 20px;
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 50px 10px;
+    gap: 10px;
 }
 
 
@@ -71,7 +72,7 @@
 
 .service-link:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 
