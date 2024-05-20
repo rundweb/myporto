@@ -1,5 +1,6 @@
 import AboutPages from "../pages/AboutPages"
 import HomePages from "../pages/HomePages"
+import ProjectPages from "../pages/ProjectPages"
 import ServicesPages from "../pages/ServicesPages"
 
 const ContentComponents = () => {
@@ -8,6 +9,7 @@ const ContentComponents = () => {
       <HomePages/>
       <AboutPages/>
       <ServicesPages/>
+      <ProjectPages/>
     </>
   )
 }

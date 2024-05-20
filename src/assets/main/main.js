@@ -21,8 +21,8 @@ export const menu = [
 
   {
     id: 4,
-    name: "Portfolio",
-    patch: "portfolio",
+    name: "Project",
+    patch: "project",
     delay: 0,
   },
 
