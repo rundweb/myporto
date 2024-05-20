@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { menu } from "../assets/main/main";
 import "./style/navbarcomponents.css";
 
@@ -15,8 +15,23 @@ const NavbarComponents = () => {
       : setChangeToggle("bx bxs-dashboard");
   };
 
+  const [navScroll, setNavScroll] = useState(false);
+
+  const scrollBottom = () => {
+    if (window.scrollY > 10) {
+      setNavScroll(true);
+    } else {
+      setNavScroll(false);
+    }
+  };
+
+  useEffect(() => {
+    scrollBottom();
+
+    window.addEventListener("scroll", scrollBottom);
+  });
   return (
-    <div className="home">
+    <div className={navScroll ? "home scroll" : "home"}>
       <div className="navbar">
         <div className="nav-logo">
           <h1>

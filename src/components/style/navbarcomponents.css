@@ -3,6 +3,11 @@
   padding: 25px;
   position: fixed;
   background-color: #fff;
+  transition: all ease .5s;
+}
+
+.home.scroll{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .navbar {
