@@ -114,7 +114,7 @@ strong {
 
 @media (max-width:560px) {
   .home-content{
-    padding: 78px 0px 25px;
+    padding: 78px 0px 0px;
   }
   .home-title h1{
     font-size: 28px;
