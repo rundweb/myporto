@@ -1,5 +1,9 @@
 import "./style/projectpages.css";
 
+import project1 from '../assets/images/project.png'
+import project2 from '../assets/images/project 2.jpg'
+import project3 from '../assets/images/Group 1.png'
+
 const ProjectPages = () => {
   return (
     <section className="project">
@@ -48,12 +52,12 @@ const ProjectPages = () => {
               </ul>
             </div>
             <div className="project-img">
-              {/* <img src="" alt="project from faldo portfolio" /> */}
+              <img src={project1} alt="project from faldo portfolio" />
             </div>
           </div>
           <div className="project-link">
             <div className="project-img">
-              {/* <img src="" alt="project from faldo portfolio" /> */}
+              <img src={project2} alt="project from faldo portfolio" />
             </div>
             <div className="project-link-text">
               <h1>Toko Online <br /> atau E-commerce</h1>
@@ -104,7 +108,7 @@ const ProjectPages = () => {
               </ul>
             </div>
             <div className="project-img">
-              {/* <img src="" alt="project from faldo portfolio" /> */}
+              <img src={project3} alt="project from faldo portfolio" />
             </div>
           </div>
         </div>
