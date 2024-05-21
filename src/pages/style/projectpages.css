@@ -61,7 +61,7 @@ strong {
   flex-direction: column;
   gap: 20px;
   background:#F2F2F2;
-  height: 400px;
+  height: 380px;
   padding: 40px;
   border-radius: 20px;
   justify-content: center;
@@ -109,12 +109,13 @@ strong {
 }
 
 .project-img{
-    height: 400px;
+    height: 380px;
     background-color: #F2F2F2;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .project-img img{
@@ -127,18 +128,25 @@ strong {
 @media (max-width:860px) {
     .project-link-text{
         padding: 20px;
-        gap: 16px;
+        gap: 10px;
     }
     .project-link-text h1{
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 22px;
+        line-height: 28px;
     }
 
     .project-link-text ul{
-        gap: 10px;
+        gap: 8px;
     }
 
     .project-link-text ul li{
         font-size: 14px;
+    }
+    .project-link-text{
+      height: fit-content;
+    }
+
+    .project-img{
+      height: fit-content;
     }
 }
