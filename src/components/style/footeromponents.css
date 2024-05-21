@@ -96,7 +96,8 @@ li a, li{
 @media (max-width : 550px) {
     .footer-right {
         width: 100%;
-        align-items: flex-start;
+        align-items: center;
+        
     }
 
     .footer-social{

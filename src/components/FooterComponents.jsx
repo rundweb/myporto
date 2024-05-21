@@ -1,5 +1,4 @@
 import "./style/footeromponents.css";
-import { menu } from "../assets/main/main";
 
 import footer1 from "../assets/images/free.png";
 import footer2 from "../assets/images/ig.png";
@@ -15,23 +14,19 @@ const FooterComponents = () => {
               <li>
                 <strong>Pages</strong>
               </li>
-              {menu.map((menus) => {
-                return (
-                  <li key={menus.id}>
-                    <a href="">{menus.name}</a>
-                  </li>
-                );
-              })}
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Testimonial</a></li>
             </ul>
             <ul>
               <li>
                 <strong>About</strong>
               </li>
               <li>
-                <a href="">Proejct</a>
+                <a href="">Service</a>
               </li>
               <li>
-                <a href="">Portfolio</a>
+                <a href="">Project</a>
               </li>
               <li>
                 <a href="">Contact</a>
