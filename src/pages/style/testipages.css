@@ -141,7 +141,10 @@
         line-height: 20px;
     }
 
-    .swip-namev2 {
-         
+    .testi{
+        padding: 0;
+    }
+    .testi-title{
+        padding: 0 25px;
     }
 }
