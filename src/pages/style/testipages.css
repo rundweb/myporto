@@ -1,0 +1,147 @@
+.testi {
+  width: 100%;
+  min-height: 70vh;
+  padding: 25px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  display: flex;
+  align-items: center;
+}
+
+.testi-content {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.testi-title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.testi-title h1 {
+  color: var(--color-blue1);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+}
+
+.testi-title h2 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: var(--color-black1);
+  text-transform: capitalize;
+}
+
+.testi-title p {
+  color: var(--color-black3);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.testi-list{
+    max-width: 600px;
+    width: 100%;
+}
+
+.swiper {
+  padding: 40px !important;
+}
+
+.swiper-slide {
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  cursor: pointer;
+  height: 220px !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.swiper-slide h1 {
+  color: var(--color-black1);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.swip-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 14px;
+}
+
+.swip-name p {
+  height: 46px;
+  width: 46px;
+  background-color: rgba(99, 99, 99, 0.2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-black1);
+}
+
+.swip-namev2 h3 {
+  color: var(--color-black1);
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.swip-namev2 h5 {
+  color: var(--color-black3);
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+
+@media (max-width : 860px) {
+    .testi-content{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testi-title{
+        text-align: center;
+    }
+}
+
+@media (max-width:560px) {
+    .testi-title h2{
+        font-size: 28px;
+    }
+
+    .testi-title p{
+        font-size: 14px;
+    }
+
+    .swiper-slide h1{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .swip-namev2 {
+         
+    }
+}

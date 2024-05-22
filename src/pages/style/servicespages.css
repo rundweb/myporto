@@ -89,3 +89,12 @@
 .service-img img {
   max-width: 100px;
 }
+
+@media (max-width:560px) {
+  .service-title h1{
+    font-size: 26px;
+  }
+  .service-list{
+    padding: 20px 10px;
+  }
+}
