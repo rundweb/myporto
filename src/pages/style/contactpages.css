@@ -1,0 +1,113 @@
+.contact{
+    width: 100%;
+    min-height: 70vh;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-black1);
+    height: auto;
+    padding: 70px 80px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+.contact-text-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    
+}
+
+.contact-text-left h1{
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.contact-text-left p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #f0f0f0;
+}
+
+.contact-text-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-start{
+    background-color: var(--color-blue1);
+    height: 44px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    font-weight: 500;
+    letter-spacing: .2px;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: rgba(255, 255, 255, .2) 0px 8px 20px 0px;
+}
+
+.contact-btn{
+    height: 44px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    font-weight: 500;
+    letter-spacing: .2px;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid var(--color-blue1);
+}
+
+@media (max-width:860px) {
+    .contact-content{
+        gap: 30px;
+    }
+    .contact-text-left{
+        width: 100%;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contact-text-button{
+        width: 100%;
+    }
+}
+
+@media (max-width:540px) {
+    .contact-content{
+        padding: 60px 25px;
+    }
+
+    .contact-text-left{
+        gap: 16px;
+    }
+
+    .contact-text-left h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
