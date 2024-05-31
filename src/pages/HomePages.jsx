@@ -3,7 +3,7 @@ import "./style/HomePages.css";
 const HomePages = () => {
   return (
     <section className="homePage">
-      <div className="home-content">
+      <div className="home-content"  data-aos="fade-up" data-aos-duration="1000">
         <div className="home-text">
           <div className="home-title">
             <h1>
@@ -17,7 +17,12 @@ const HomePages = () => {
         </div>
 
         <div className="home-bottom">
-          <div className="home-text-bottom">
+          <div
+            className="home-text-bottom"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <h1>
               Di sini, kami percaya bahwa setiap garis kode adalah potensi baru
               untuk menciptakan sesuatu yang luar biasa. Saya seorang{" "}
@@ -26,7 +31,13 @@ const HomePages = () => {
               biasa.
             </h1>
           </div>
-          <div className="home-btn-bottom">
+          <div
+            className="home-btn-bottom"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            
+          >
             <a href="">Lihat Portfolio</a>
             <a href="">Kontak kami</a>
           </div>

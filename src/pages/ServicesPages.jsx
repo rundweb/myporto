@@ -7,7 +7,11 @@ const ServicesPages = () => {
   return (
     <section className="service">
       <div className="service-content">
-        <div className="service-title">
+        <div
+          className="service-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <p>SERVICE</p>
           <h1>Desain inovatif, pengalaman pengguna terbaik.</h1>
           <h3>
@@ -15,7 +19,12 @@ const ServicesPages = () => {
             terjamin.
           </h3>
         </div>
-        <div className="service-list">
+        <div
+          className="service-list"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           <div className="service-link">
             <div className="service-img">
               <img src={gambar1} alt="service porfolio faldo" />

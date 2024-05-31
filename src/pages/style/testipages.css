@@ -118,6 +118,7 @@
 
 @media (max-width : 860px) {
     .testi-content{
+      padding: 40px 0;
         align-items: center;
         justify-content: center;
     }

@@ -4,15 +4,20 @@ const AboutPages = () => {
   return (
     <section className="about">
       <div className="about-content">
-        <div className="about-title">
+        <div
+          className="about-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <p>About</p>
           <h1>Menerapkan praktik terbaik dalam pengembangan web.</h1>
-          {/* <h3>
-            Saya adalah web developer yang berdedikasi untuk mengubah ide-ide
-            menjadi pengalaman online yang menakjubkan.
-          </h3> */}
         </div>
-        <div className="about-img">
+        <div
+          className="about-img"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           <img src={aboutImg} alt="about portfolio rifaldo" />
           <div className="about-text">
             <h1>

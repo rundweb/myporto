@@ -13,7 +13,11 @@ const TestiPages = () => {
   return (
     <section className="testi">
       <div className="testi-content">
-        <div className="testi-title">
+        <div
+          className="testi-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h1>Testimonial</h1>
           <h2>
             Pengalaman nyata <br /> dari pelanggan kami.
@@ -23,27 +27,32 @@ const TestiPages = () => {
             kepuasan yang mereka rasakan.
           </p>
         </div>
-        <div className="testi-list">
+        <div
+          className="testi-list"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
           <Swiper
-             grabCursor={true}
-             effect={'creative'}
-             loop={true}
-             creativeEffect={{
-               prev: {
-                 shadow: true,
-                 translate: ['-120%', 0, -500],
-               },
-               next: {
-                 shadow: true,
-                 translate: ['120%', 0, -500],
-               },
-             }}
-             autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-              }}
-             modules={[Autoplay,EffectCreative]}
-             className="mySwiper2"
+            grabCursor={true}
+            effect={"creative"}
+            loop={true}
+            creativeEffect={{
+              prev: {
+                shadow: true,
+                translate: ["-120%", 0, -500],
+              },
+              next: {
+                shadow: true,
+                translate: ["120%", 0, -500],
+              },
+            }}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, EffectCreative]}
+            className="mySwiper2"
           >
             {testi.map((testies) => (
               <SwiperSlide key={testies.id}>

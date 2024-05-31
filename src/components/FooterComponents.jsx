@@ -8,7 +8,8 @@ const FooterComponents = () => {
   return (
     <section className="footer">
       <div className="footer-content">
-        <div className="footer-top">
+        <div className="footer-top" data-aos="zoom-in"
+              data-aos-duration="1000">
           <div className="footer-ul">
             <ul>
               <li>
